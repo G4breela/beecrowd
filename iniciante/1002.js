@@ -5,8 +5,8 @@
 let raio = parseFloat(lines.shift());
 // para testar adicione o valor. ex: 100.64;
 
-let n = 3.14159;
+let pi = 3.14159;
 
-let area = n*(Math.pow(raio, 2));
+let area = pi*(Math.pow(raio, 2));
 
 console.log(`A=${area.toFixed(4)}`)
